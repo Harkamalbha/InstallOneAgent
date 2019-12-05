@@ -1,4 +1,3 @@
 - hosts: all
   roles:
-    - role: Dynatrace.OneAgent
-      oneagent_installer_script_url:https://stg99002.live.dynatrace.com/api/v1/deployment/installer/agent/unix/default/latest?Api-Token=i8r36iXXR_KmkhMPiMfZ_&arch=x86&flavor=default
+    - role: Dynatrace.OneAgent oneagent_installer_script_url:https://stg99002.live.dynatrace.com/api/v1/deployment/installer/agent/unix/default/latest?Api-Token=i8r36iXXR_KmkhMPiMfZ_&arch=x86&flavor=default
